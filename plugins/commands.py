@@ -100,9 +100,9 @@ async def start(client, message):
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
             await message.reply_text(
-                text=f"<b>Hey {message.from_user.mention}, You are successfully verified !\n🎁 You have received
+                text=f"<b>Hey {message.from_user.mention}, You are successfully verified !\nYou have received
 24 HOURS UNLIMITED PREMIUM ACCESS
-⏳ Enjoy all exclusive content without limits 🔓🔥.</b>",
+⏳ Enjoy all exclusive content without limits.</b>",
                 protect_content=True
             )
             await verify_user(client, userid, token)
@@ -120,7 +120,7 @@ async def start(client, message):
                     InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\n🔐 Verification Required
+                    text="<b>You are not verified !\nVerification Required
 Complete your verification to unlock exclusive premium content 🔥
 ⏰ Access will remain active for 24 hours after successful verification ✅!</b>",
                     protect_content=True,
