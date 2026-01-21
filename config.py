@@ -22,9 +22,9 @@ API_ID = int(environ.get("API_ID", "27084955"))
 API_HASH = environ.get("API_HASH", "91c88b554ab2a34f8b0c72228f06fc0b")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://envs.sh/guE.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://files.catbox.moe/s9fboe.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7459282233 5475390025').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "FileStoreby_bot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "DDOSE0007BOT") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -35,7 +35,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://ankushdeb91:WpbkXkwE0rL98h7q@cluster0.cpl3y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://rxnwali_db_user:filmywap@cluster0.uhhxbqk.mongodb.net/?appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "techvjbotz")
 
 # Auto Delete Information
